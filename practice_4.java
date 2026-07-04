@@ -14,7 +14,7 @@ public class practice_4{
           System.out.println(clean); 
           for(int i=0; i<clean.length(); i++){
                  System.out.println(clean.charAt(i));
-          } 
+          }
           String rev = new StringBuilder(clean).reverse().toString();
            for(int i=0; i<rev.length(); i++){
                  System.out.println(rev.charAt(i));
