@@ -14,15 +14,17 @@ public class LinkedList{
         ListNode first = new ListNode(10);
         ListNode second = new ListNode(20);
         ListNode third = new ListNode(30);
+        
 
          first.next = second;
          second.next = third;
+         third.val = 100;
      ListNode head = first;
      ListNode current = head;
         while(current != null ){
             System.out.println(current.val);
             current = current.next;
         }
-      
+      System.out.println();
     }
 }
